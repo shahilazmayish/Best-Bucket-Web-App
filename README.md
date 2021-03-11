@@ -7,8 +7,8 @@ Install Microsoft Visual Studio
 In MS Visual Studio
 Open the project folder
 Open cmd Terminal
->>pip install django
->>python manage.py createsuperuser
+*pip install django
+*python manage.py createsuperuser
        
 Install Postgresql
 Everything at default settings
@@ -23,10 +23,10 @@ Server/Postgresql/Database/Create Database: BestBucket
       
 In MS Visual Studio
 Open cmd Terminal
->>pip install psycopg2
->>pip install pillow
->>python manage.py migrate
->>python manage.py runserver
+*pip install psycopg2
+*pip install pillow
+*python manage.py migrate
+*python manage.py runserver
 
 Page Link: http://127.0.0.1:8000/
        
