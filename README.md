@@ -10,7 +10,6 @@ For software framework we are going to use Django...
 **in project folder command prompt:**
 ```sh
 pip install django
-python manage.py createsuperuser
 ```
 ## Instalation of the database and database UI
 **Install [Postgresql](https://www.postgresql.org/download/)**
@@ -30,6 +29,7 @@ Server/Postgresql/Database/Create Database: **BestBucket**
 pip install psycopg2
 pip install pillow
 python manage.py migrate
+python manage.py createsuperuser
 python manage.py runserver
 ```
 **Page Link: http://127.0.0.1:8000/**
