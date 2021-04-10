@@ -1,47 +1,14 @@
-{% load static %}
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="colorlib.com">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-    <link href="{% static 'css/main.css' %}" rel="stylesheet" />
-  </head>
-  <body>
-    <div style="text-align: center;">
-      <h1 style="font-size:60px;">{{name}}</h1>
-    </div>
-    <div class="s131">
-      <form action="searchproduct" method='post'>
-        {% csrf_token %}
-        <div class="inner-form">
-          <div class="input-field first-wrap">
-            <input id="search" type="text" placeholder="What are you looking for?" />
-          </div>
-          <div class="input-field second-wrap">
-            <div class="input-select">
-              <select data-trigger="" name="choices-single-defaul">
-                <option placeholder="">CATEGORY</option>
-                <option>Subject A</option>
-                <option>Subject B</option>
-                <option>Subject C</option>
-              </select>
-            </div>
-          </div>
-          <div class="input-field third-wrap">
-            <button class="btn-search" type="button">SEARCH</button>
-          </div>
-        </div>
-      </form>
-    </div>
-    <script src="{% static 'js/extention/choices.js' %}" ></script>
-    <script>
-      const choices = new Choices('[data-trigger]',
-      {
-        searchEnabled: false
-      });
+{% extends 'base.html' %}
+{% block content %}
+    
+<div>
+    <h1 style="font-size:60px;">{{name}}</h1>
+    <form action="searchproduct" method='get'>
+        
+        <input type="text" name="q"><br>
+        <input placeholder="Search.." type="Submit">
+        </form> 
+</div>
 
-    </script>
-  </body>
-</html>
+
+{% endblock %}
