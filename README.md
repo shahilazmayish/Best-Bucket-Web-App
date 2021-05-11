@@ -3,7 +3,7 @@
 
 ## Installation
 
-Best Bucket requires [Python](https://www.python.org/) to run.
+Best Bucket is a web application that compear prices from various products and shou the comparison list so that you could make the best coice out of it in a single search.
 
 **Install [Python](https://www.python.org/downloads/)**
 For software framework we are going to use Django...
