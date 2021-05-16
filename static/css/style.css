@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(../images/Search_131.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+ 
+}
+
+.main-contents{
+    padding-top: 100px;
+}
+
+.logo img{
+    height: 150px;
+}
+
+.logo-title{
+    font-size: 30px;
+    color: rgba(27, 27, 27, 0.774);
+    margin-top: -2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-area{
+    margin-top: 50px;
+}
+
+.search-box{
+    border: none;
+    background-color: white;
+    outline: none;
+    padding: 15px 15px;
+    width: 400px;
+    font-size: 20px;
+}
+
+
+.btn-search{
+    background-color: #038684;
+    border: none;
+    /* border-radius: 5px; */
+    font-size: 16px;
+    color: white;
+    padding-top: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-left: -5px;
+    cursor: pointer;
+}

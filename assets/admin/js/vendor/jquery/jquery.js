@@ -3386,8 +3386,7 @@ jQuery.each( {
 		}
 
 		return jQuery.merge( [], elem.childNodes );
-	}
-}, function( name, fn ) {
+	}, function( name, fn ) {
 	jQuery.fn[ name ] = function( until, selector ) {
 		var matched = jQuery.map( this, fn, until );
 
@@ -5848,8 +5847,7 @@ jQuery.each( {
 		}
 
 		return event.which;
-	}
-}, jQuery.event.addProp );
+	}, jQuery.event.addProp );
 
 jQuery.each( { focus: "focusin", blur: "focusout" }, function( type, delegateType ) {
 	jQuery.event.special[ type ] = {
@@ -7878,8 +7876,7 @@ jQuery.each( {
 	slideToggle: genFx( "toggle" ),
 	fadeIn: { opacity: "show" },
 	fadeOut: { opacity: "hide" },
-	fadeToggle: { opacity: "toggle" }
-}, function( name, props ) {
+	fadeToggle: { opacity: "toggle" }, function( name, props ) {
 	jQuery.fn[ name ] = function( speed, easing, callback ) {
 		return this.animate( props, speed, easing, callback );
 	};

@@ -235,7 +235,7 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.destinations_container
+	.products_container
 	{
 		width: 100%;
 		left: auto;
@@ -356,11 +356,11 @@
 		height: 42px;
 		font-size: 12px;
 	}
-	.destination_title a
+	.product_title a
 	{
 		font-size: 24px;
 	}
-	.destination_price
+	.product_price
 	{
 		font-size: 14px;
 	}

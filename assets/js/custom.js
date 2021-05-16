@@ -190,10 +190,10 @@ $(document).ready(function()
 	            {
 	            	price: function(itemElement)
 	            	{
-	            		var priceEle = $(itemElement).find('.destination_price').text().replace( 'From $', '' );
+	            		var priceEle = $(itemElement).find('.product_price').text().replace( 'From $', '' );
 	            		return parseFloat(priceEle);
 	            	},
-	            	name: '.destination_title a'
+	            	name: '.product_title a'
 	            },
 	            animationOptions:
 	            {
