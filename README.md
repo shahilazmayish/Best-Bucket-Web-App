@@ -36,8 +36,7 @@ The app "Best Bucket" is a online platform product comparison from various super
 
 > Search Item
 
-![2 - search item](https://user-images.githubusercontent.com/30392912/150983382-d24f58d6-4bed-471d-a8f2-1a32e792d28a.png)
-
+![2 - search item](https://user-images.githubusercontent.com/30392912/150983678-7595dba9-fed9-4077-b4fc-76d0b04b656c.png)
 
 > Search Results
 
