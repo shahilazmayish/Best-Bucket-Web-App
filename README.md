@@ -49,7 +49,7 @@ The app "Best Bucket" is a online platform product comparison from various super
 
 > Admin Activity
 
-![6 - admin activity](https://user-images.githubusercontent.com/30392912/150983356-0fdfcc1d-5c51-4305-b964-84d2bfd87716.png)
+![6 - admin activity](https://user-images.githubusercontent.com/30392912/150983912-2f5e15ec-f233-4547-ba7d-440a10cdfc85.png)
 
 
 > Admin Data Management
