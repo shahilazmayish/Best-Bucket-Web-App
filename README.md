@@ -7,12 +7,12 @@ The app "Best Bucket" is a online platform product comparison from various super
 ![image](https://user-images.githubusercontent.com/30392912/118420726-6e56a100-b6e1-11eb-8d67-85b2590cbad3.png)
 ## Features
 
-For User
+#### For User
 * Authentication (Sign in, Login, Forgot pass)
 * Search item
 * Clickable to the main Product page
 
-For Admin
+#### For Admin
 * Upload New Product from Admin panel
 
 ![image](https://user-images.githubusercontent.com/30392912/118420726-6e56a100-b6e1-11eb-8d67-85b2590cbad3.png)
@@ -25,35 +25,40 @@ For Admin
 * Selenium bot 
 * Panda 
 * Pg admin 4 
-* Microsoft excel 
+* Microsoft excel
+
+## Screen Shots of the Web App
+
+> Home Screen
+
+![1 - home screen](https://user-images.githubusercontent.com/30392912/150983372-36f17c19-4ea9-4b91-8122-6b614d9a5b96.png)
+
+
+> Search Item
+
+![2 - search item](https://user-images.githubusercontent.com/30392912/150983382-d24f58d6-4bed-471d-a8f2-1a32e792d28a.png)
+
+
+> Search Results
+
+![3 - search results](https://user-images.githubusercontent.com/30392912/150983390-654dd85d-d7a2-4baa-b029-e0e5a8c3b7b9.png)
+
+
+> Browse to the Original Product Page
+
+![4 - browse to the original product page](https://user-images.githubusercontent.com/30392912/150983398-253533b9-3c03-4f86-8fc1-c674059ecc76.png)
+
+> Admin Activity
+
+![6 - admin activity](https://user-images.githubusercontent.com/30392912/150983356-0fdfcc1d-5c51-4305-b964-84d2bfd87716.png)
+
+
+> Admin Data Management
+
+![7 - admin datamanagement](https://user-images.githubusercontent.com/30392912/150983340-50b72823-e857-46ea-a349-81d7332daa3c.png)
+
+
 
 ## Conclusion
 
 Our project is about to compare the product from different website and show the best result based on price, quality and shop review. Our main motto is to show people the best product with the best options. Often people get confused from where what should they buy. By using our site people with make a fine conclusion on their confusion. Another thing is we will keep our site very user friendly. So anyone can use this without facing any hassle. But we don’t have much experience about this. Firstly we will make a smaller one late we will make a public version. We will develop our project and update our works regularly. 
-
-
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
-
-       
